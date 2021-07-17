@@ -11,8 +11,7 @@ body {
   background-image: url(images/bg-pattern-top.svg),
     url(images/bg-pattern-bottom.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: left top, right bottom;
-  background-size: 300px, 300px;
+  background-position: -398px -498px, 675px 253px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -78,16 +77,14 @@ span {
   font-size: 1.5rem;
 }
 
-.attribution{
+.attribution {
   color: hsl(229, 23%, 23%);
   margin-top: 10px;
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 700px) {
   body {
-  background-size: 100px, 100px;
-
-}
-
+    background-position: -625px -630px, 210px 215px;
+  }
 }
